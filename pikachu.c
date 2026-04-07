@@ -11,14 +11,14 @@ int main()
     int baseDef = 30;
     int *defPtr = &baseDef;
 
-    printf("\n-- Pikachu's Stats --\n");
+    printf("\n=== Pikachu's Stats ===\n");
     printf("Atk : %d\n", baseAtk);
     printf("Def : %d\n", baseDef);
 
     boostAtk(atkPtr);
     boostDef(defPtr);
 
-    printf("\n-- Pikachu's Stats --\n");
+    printf("\n=== Pikachu's Stats ===\n");
     printf("Atk : %d\n", baseAtk);
     printf("Def : %d\n", baseDef);
 
